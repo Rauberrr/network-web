@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/estilo.css">
+    <title> Bridge - Rauber </title>
+    <link rel="shortcut icon" href="./imagem/bxs-film.svg" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="imagem/Logo-Rauber.png" alt="logo">
+        </div>
+        <nav class="menu">
+            <a href="index.html">
+                <h2> HOME </h2>
+            </a>
+            <a href="">
+                <h2> SOBRE </h2>
+            </a>
+            <a href="contato.html">
+                <h2> CONTATO </h2>
+            </a>
+        </nav>
+        <div class="contato">
+            <a href="https://www.facebook.com/ifprbarracao" target="_blank"> <img src="imagem/facebook.png" alt="Facebook"> </a>
+            <a href=""> <img src="imagem/pinterest.png" alt="Pinterest"> </a>
+            <a href="https://www.youtube.com/c/Conex%C3%A3oIFPR" target="_blank"> <img src="imagem/youtube.png" alt="Youtube"> </a>
+            <a href="https://www.instagram.com/ifpr.barracao/" target="_blank"> <img src="imagem/instagram.png" alt="Instagram"> </a>
+            <a href=""> <img src="imagem/whatsapp.png" alt="Whatsapp"> </a>
+        </div>
+        <div class="stop-float"></div>
+    </header>
+    <main id="main_3">
+        <div class="topo"> 
+            <h1> Bridge </h1>
+        </div>
+        <section>
+            <!-- <div id="sobre">
+                <p> Para saber qual é a melhor solução para você, é importante entender bem qual a diferença entre roteador e repetidor. </p>
+            </div> -->
+            <div>
+                <p>Apesar do termo pouco comum e em inglês, o bridge trata-se de um equipamento simples que funciona como uma ponte, literalmente, transformando a fibra óptica em cabo de rede.De modo resumido, o equipamento funciona a partir da transmissão do sinal óptico que sai da OLT (Optical Line Terminal), e é direcionado ao splitter, que faz a divisão para que ele chegue até a ONU (Optical Network Unit), na casa do cliente. Para isso, coloca-se um equipamento em bridge ligado à ONU, que vai funcionar como um conversor de mídia, de fibra para o cabo de rede. </p>
+                
+                
+                <p> Ou seja, quando o equipamento está em modo bridge, ele é apenas uma ponte entre essas duas tecnologias. O sinal óptico chega ao equipamento e ele passa esse sinal para o roteador, que é quem vai fazer de fato todo o trabalho de levar os dados ao dispositivo. O equipamento bridge, então, recebe dados da fibra óptica, converte em outro padrão e envia através do cabo de rede para o roteador. Dessa forma, os dados chegam diretamente do servidor para serem acessados no dispositivo.</p>
+
+                <p>É dentro do roteador que temos o usuário PPPoE. E é ele o nosso próximo termo a ser desvendado.</p>
+            </div>
+
+            <div>
+                <h3> PPPoE </h3>
+                <p> Antigamente, com a internet discada, existia um discador em que era preciso colocar usuário e senha e ele discava para o usuário se conectar à internet. O PPPoE (Point-to-Point Protocol over Ethernet) é basicamente isso: uma senha que o roteador exige para a conexão. Quando o roteador é acionado, o provedor recebe a informação do usuário e da senha e, os dados estando corretos, o login é autenticado. Como vimos, na ONU bridge, o equipamento joga o sinal para o roteador e é ele que vai gerenciar o sinal. Mas há ainda a ONU router, em que o roteador tem o PPPoE dentro dele, que é o protocolo de rede que permite a conexão com o servidor. Ou seja, a ligação do roteador com o provedor. </p>
+
+                <p> O PPPoE é um protocolo de rede que atua com a tecnologia Ethernet, utilizada para ligar uma placa de rede a um ou vários usuários em uma rede LAN por meio de uma linha DSL. É bastante utilizado porque permite identificar o usuário conectado com facilidade, além de controlar as suas ações, após ter sido autenticado. Entre esses controles, é possível realizar o gerenciamento de banda e o número do MAC do cable modem, o que garante o bloqueio (ou o desbloqueio) do usuário com mais rapidez. </p>
+
+            </div>
+
+            <div> 
+                <h3> DHCP </h3>
+                <p> Enquanto o PPPoE é um método antigo de conexão com um provedor, o DHCP também é um protocolo para obter endereços IP, porém é dinâmico. Em outras palavras, o DHCP (Dynamic Host Configuration Protocol) é um protocolo de rede entre cliente e servidor que atribui dinamicamente endereços IP e outras informações de configuração relacionadas aos dispositivos de rede, já que cada dispositivo de uma rede TCP/IP deve ter um endereço IP exclusivo para acessar a rede. Sendo assim, a cada conexão, é atribuído um IP novo. </p>
+
+                <p> Sem a configuração do DHCP, os administradores de rede precisam configurar endereços IP manualmente se quiserem adicionar novos computadores ou mover computadores de uma sub-rede para outra. </p>
+            </div>
+
+            <div> 
+                <h4> Principais Diferenças PPPoE & DHCP </h4>
+
+                <ul>
+                    <li> Tanto PPPoE quanto DHCP atuam para adquirir o endereço IP. O que distingue PPPoE e DHCP são os métodos para obter esse IP. O DHCP é um protocolo para obter endereços IP, enquanto o PPPoE é um método de conexão direta com um provedor.</li>
+                    <li> O DHCP é mais popular e é amplamente utilizado, enquanto o PPPoE está caindo lentamente em desuso. </li>
+                    <li> Com o PPPoE, é preciso primeiro configurar um nome de usuário e uma senha, o que fará a autenticação na próxima vez que for ligada a rede para adquirir um IP, enquanto a configuração do DHCP é automática. O IP é atribuído automaticamente ao usuário sem autenticação. </li>
+                </ul>
+            </div>
+
+        </section>
+
+    </main>
+</body>
+</html>
